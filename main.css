@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins:wght@500&family=Roboto+Mono:wght@200;300;400;500&family=Roboto:wght@300;400&family=Ubuntu:wght@300;400&display=swap');
+
+.navigation{
+    height: 100px;
+    width: 100%;
+    font-family:Roboto;
+    ;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    border-radius: 50%;
+}
+.navlogo a{
+    width: 100%;
+    text-align: center;
+}
+.navoption{
+    padding-left: 50px;
+}
+.navbaritem li{
+    width:100px ;
+}
+.navbaritem li a{
+    padding-left: 20px;
+    justify-content: space-between;
+
+}
+.navicon{
+    width: 400px;
+    transform: translateX(150px);
+}
+.navicon li{
+ margin: 0 10px;
+ width: 50px;
+}
+.navicon button{
+    margin-left: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.home{
+    height: 400px;
+    width: 100%;
+}
