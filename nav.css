@@ -204,7 +204,8 @@ body.dark {
         left: -100%;
         top: 0;
         padding: 20px;
-        background-color: var(--side-nav);
+        background-color: grey;
+        color: whitesmoke;
         z-index: 100;
         transition: all 0.4s ease;
         flex-direction: column;
@@ -247,5 +248,157 @@ body.dark {
     .nav-links li a{
         display: block;
         margin-top: 20px;
+    }
+}
+
+
+/*  First Section  */
+.first-section {
+    max-width: 1480px;
+    height: 750px;
+    background-image: url(6.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.type{
+    height:40px;
+    width:235px;
+    position:relative;
+    top:18px;
+    left:5px;
+    border-radius:10px;
+}
+.sub {
+    height: 30px;
+    width: 30px;
+    background-color: #fafafa;
+    color: red;
+    position: relative;
+    top: 18px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 1480px) {
+    ul.our-primary-menu {
+        position: relative;
+        right: 0px;
+    }
+    .header-info {
+        flex-direction: column;
+        height: 200px;
+        position: relative;
+        right: 31%;
+    }
+
+    .header-button {
+        flex-direction: column;
+        position: relative;
+        left: 8%;
+    }
+    .log1 {
+        position: relative;
+        top: 130%;
+        right: 50%;
+        width: 130px;
+    }
+}
+
+
+    .text1 {
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    flex-direction: column;
+}
+.pic1 {
+    height: 100%;
+    width: 40%;
+
+}
+
+.text2 {
+    font-size: 27px;
+    color: whitesmoke;
+    position: relative;
+    top: 160px;
+    right: 150px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text3 {
+    font-size: 50pt;
+    font-weight: 600;
+    margin-left: -3px;
+    font-family: 'Rubik', sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 134px;
+    left: -30px;
+}
+
+.text4 {
+    font-size: 25pt;
+    margin: 5px 0;
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 90px;
+    left: 185px;
+}
+
+    .text4 span {
+        color: red;
+        font-weight: 500;
+    }
+
+.pic1 img {
+    height: 250px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+}
+
+@media only screen and (max-width: 1480px) {
+    .text1{
+        width:50%;
+        height:100%;
+        position:relative;
+        left:225px;
+        top:300px;
+    }
+    .text2{
+        font-size:20pt;
+        position:relative;
+        top:100px;
+    }
+     .text1 .text3 {
+        font-size: 25pt;
+        position:relative;
+        width: 250px;
+        right:300px;
+        top:90px;
+        transform:translateX(-120px);
+    }
+    .text4 {
+        transform: translateY(15px);
+        position:relative;
+        top:60px;
+        transform: translateX(-320px);
+        font-size:20pt;
+    }
+    .text5 {
+        position: relative;
+        font-size: 20pt;
+    }
+    .pic1 img{
+        height:200px;
+        width:200px;
+        position:relative;
+        right: 150px;
+        transform: translateY(-30px);
     }
 }
