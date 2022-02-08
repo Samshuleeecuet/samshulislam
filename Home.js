@@ -1,4 +1,3 @@
-import Typed from 'typed.js'
 
 // typing text animation script
 var type = new Typed(".typing", {
@@ -7,5 +6,3 @@ var type = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
-
-console.log('ghr')
