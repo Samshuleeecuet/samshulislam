@@ -43,5 +43,21 @@ h3::after{
 .aboutdetails{
     margin-left: 40px;
     margin-top:20px;
-    background: grey;
+    height: 135px;
+}
+.icon1{
+    height: 30px;
+    display:flex;
+    margin-top: 5px;
+}
+.icon1 p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+}
+.icon path{
+    fill: #149ddd;
 }
