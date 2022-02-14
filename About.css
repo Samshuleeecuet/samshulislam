@@ -43,7 +43,7 @@ h3::after{
 .aboutdetails{
     margin-left: 40px;
     margin-top:20px;
-    height: 135px;
+    height: 250px;
 }
 .icon1{
     height: 30px;
@@ -60,4 +60,44 @@ h3::after{
 }
 .icon path{
     fill: #149ddd;
+}
+.contacticon{
+    height: 110px;
+    display:flex;
+    margin-top: 5px;
+}
+.icon2{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    transform: translate(500px,25px);
+}
+.icon2 path{
+    fill: #149ddd;
+}
+.icodeptico{
+    height: 30px;
+    width: 30px;
+}
+@media only screen and (max-width: 1480px) {
+    #icondept{
+        margin-bottom: 35px;
+    }
+    .icon1{
+        margin-top: 10px;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    #icodeptico{
+        height: 40px;
+        width: 40px;
+    }
+    .icon2{
+        height: 25px;
+        width: 25px;
+        margin-left: 20px;
+        transform: translate(200px,25px);
+    }
 }
