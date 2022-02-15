@@ -10,6 +10,7 @@
     <title>About</title>
 </head>
 <body>
+    <?php include 'nav.php' ?>
      <div class="container">
         <h3 class="heading">About</h3>
         <div class="textabout">

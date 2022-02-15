@@ -8,12 +8,12 @@
     <!-- ==== Font Awesome ==== -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="nav.css">
         
     <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Home</title>
+    <title></title>
 </head>
 <body>
     <nav>
@@ -29,15 +29,15 @@
                 <div class="navbar">
                   <div class="nav-links">
                     <ul class="nav-links">
-                      <li><a href="Home.html">Home</a></li>
-                      <li><a href="About.html">About</a></li>
+                      <li><a href="Home.php">Home</a></li>
+                      <li><a href="About.php">About</a></li>
                       <li><a href="#">Resume</a></li>
                       <li><a href="#">Portfolio</a></li>
                       <li><a href="#">Services</a></li>
                       <li><a href="#">Contact</a></li>
                    </ul>
                   </div> 
-                  <div class="icon">
+                  <div class="iconnav"id="iconnav">
                     <a href="http://https://www.github.com/Samshuleeecuet"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/shakileeecuet/"><i class="fab fa-linkedin-in" ></i></a>
                     <a href="http://https://www.facebook.com/Shakil.EEE.CUET/" ><i class="fab fa-facebook-f" ></i></a>
@@ -55,17 +55,8 @@
                 </div>
             </div>
         </div>
-        <div class="first-section">
-            <div class="text1">
-                <p class="text2">Hello, my name is</p><br />
-                <p class="text3">Samshul Islam</p><br />
-                <p class="text4">I'm a <span class="typing"></span></p><br />
-            </div>
-            <div class="pic1">
-                <img src="sam1.jpg" />
-            </div>
-        </div>
     </nav>
+    
 <script>
 
 const body = document.querySelector("body"),
@@ -107,7 +98,6 @@ body.addEventListener("click" , e =>{
 });
 
 </script>
-<script src="Home.js"></script>
 
 <!-- Optional JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
